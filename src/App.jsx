@@ -1,10 +1,16 @@
 import React from 'react'
+import Header from './components/header/Header'
+import "./App.css"
+import Home from './components/home/Home'
 
 const App = () => {
   return (
-    <h1>
-      Portfolio
-    </h1>
+    <>
+      <Header />
+      <main className='main'>
+        <Home />
+      </main>
+    </>
   )
 }
 
